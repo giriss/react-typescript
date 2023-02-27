@@ -17,10 +17,10 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "test": "react-scripts test --colors --coverage --watchAll=false",
-    "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "storybook": "start-storybook -p 6006 -s public",
@@ -50,6 +50,7 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@vitejs/plugin-react": "^3.1.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.6.0",
@@ -62,6 +63,7 @@
     "eslint-plugin-storybook": "^0.6.11",
     "prettier": "^2.8.4",
     "prop-types": "^15.8.1",
+    "vite": "^4.1.4",
     "webpack": "^5.75.0"
   }
 }
