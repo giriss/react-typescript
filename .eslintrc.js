@@ -9,6 +9,7 @@ module.exports = {
     'react-app',
     'react-app/jest',
     'prettier',
+    'plugin:storybook/recommended',
   ],
   overrides: [],
   parserOptions: {
